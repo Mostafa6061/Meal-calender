@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal planner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="left-side">
+        <div class="head-part">
+          <h2>Pick up your dishes:</h2>
+          <h2 id="demo"></h2>
+        </div>
+        <div class="scrollable">
+          <div class="list">
+            <ul class="first-list"></ul>
+            <ul class="second-list"></ul>
+            <ul class="third-list"></ul>
+            <!-- <ul class="first-list">
+              <li>
+                <div id="myBtn" class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Ashak</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+            </ul> -->
+            <!-- <ul class="second-list">
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="play">
+                    <div class="main">Hauptgericht</div>
+                    <div class="name">Bolani</div>
+                  </div>
+                  <div class="photo">
+                    <img src="Bolani 1.png" alt="Picture of Bolani" />
+                  </div>
+                </div>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+        <div class="input">
+          <div id="new-element"></div>
+          <input type="text" id="input" placeholder="Your text here" />
+          <button id="button">Click here</button>
+          <button class="reloadButton">lass dich überraschen</button>
+        </div>
+      </section>
+      <div class="table">
+        <table>
+          <tr>
+            <div class="empty">
+              <th class="empty"></th>
+            </div>
+            <div class="breakfast">
+              <th class="top">Breakfast</th>
+            </div>
+            <div class="lunch">
+              <th class="top">Lunch</th>
+            </div>
+            <div class="snaks">
+              <th class="top">Snaks</th>
+            </div>
+            <div class="dinner">
+              <th class="top">Dinner</th>
+            </div>
+          </tr>
+          <tr>
+            <th>Monday</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <th>Tuesday</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <th>Wednesday</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <th>Thursday</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <th>Friday</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <th>Saturday</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <th>Sunday</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>
